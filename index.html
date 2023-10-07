@@ -1,20 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>HTML Album Cover</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
+  <style>
+    h4 , h2 {
+      font-family: 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
+      font-size: 24px;
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+  
+     
+    
+      .vertical-bar {
+        display: inline-block;
+        margin-right: 5px;
+        border-right: 2px solid #000;
+        padding-right: 5px;
+      }
+    
+
+
+
+  </style>
   <body>
     <div class="wrapper">
       <div id="front" class="album">
         <div id="title-box">
 
           <!-- Level 4 'PHARRELL WILLIAMS' Header -->
+          <h4>PHARRELL WILLIAMS</h4>
 
           <!-- Level 2 'HAPPY' Header -->
+          <h2>HAPPY</h2>
 
           <!-- Level 4 '| FROM DESPICABLE ME...' Header -->
+          <h4><span class="vertical-bar">|</span> FROM DESPICABLE ME...</h4>
 
         </div>
       </div>
@@ -22,22 +48,31 @@
       <div id="back" class="album">
 
         <!-- Level 3 '| FROM DESPICABLE ME...' Header -->
+        <h3><span class="vertical-bar">|</span> FROM DESPICABLE ME...</h3>
 
         <!-- Level 1 'HAPPY' Header -->
+        <h1>HAPPY</h1>
 
         <!-- Level 3 'WRITTEN BY...' Header -->
+        <h3><span class="vertical-bar">|</span> WRITTEN BY...</h3>
 
         <!-- pararaph text 'PUBLISHED BY...' -->
+        <p>PUBLISHED BY Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus iste error amet voluptates doloribus aperiam, sunt, aut laboriosam blanditiis unde omnis nostrum exercitationem illo quia, ea sequi! Nobis, doloribus odit.</p>
+        
 
         <!-- span text 'PHARRELLWILLIAMS.COM' -->
+        <span>PHARRELLWILLIAMS.COM</span>
 
         <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/columbia-logo.png] -->
+        <img src="https://s3.amazonaws.com/learn-verified/columbia-logo.png" alt="Columbia Records Logo">
 
         <!-- span text 'COLUMBIARECORDS.COM' -->
+        <span>COLUMBIARECORDS.COM</span>
 
         <br>
 
         <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/sony-logo.png] -->
+        <img src="https://s3.amazonaws.com/learn-verified/sony-logo.png" alt="Sony Logo">
 
       </div>
     </div>
